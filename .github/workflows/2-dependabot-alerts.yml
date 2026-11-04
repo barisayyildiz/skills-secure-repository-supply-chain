@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "code/src/AttendeeSite/**"
+  workflow_dispatch: 
 
 permissions:
   contents: read
